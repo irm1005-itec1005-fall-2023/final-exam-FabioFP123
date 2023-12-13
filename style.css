@@ -53,6 +53,39 @@ body {
   border: 0;
  }
 
+.contact{
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact2{
+  padding: 9px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.contact3{
+  padding: 9px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  text-decoration: none;
+}
 
 /*
  * SHARED STYLES
@@ -64,6 +97,179 @@ body {
   padding: 0 1.0rem;
 }
 
+.top {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.logosize {
+  height: 40px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 100px;
+}
+
+.types {
+  display: grid;
+  max-width: 1000px;
+}
+
+.d1 {
+  list-style-type: none;
+
+}
+
+
+.c1{
+  background-color: rgb(203, 131, 203);
+  text-align: center;
+  margin-top: auto;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.c2{
+  background-color: aquamarine;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.c3{
+  background-color: bisque;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.c4{
+  background-color: coral;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.c5{
+  background-color: darkseagreen;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.c6{
+  background-color: grey;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+.types {
+  margin-bottom: 100px;
+  text-align: center;
+
+}
+
+.ready{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.size{
+  max-width: 50%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ready {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .size {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+}
+
+.amytxt{
+  padding-top: 20px;
+}
+
+.impact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; 
+  margin-bottom: 50px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+.impactpic {
+  border-radius: 20px;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background-color: rgb(42, 42, 42);
+  padding: 5px;
+}
+
+.pictxt {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.txt {
+  background-color: aquamarine;
+  text-align: center;
+  margin-right: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.mywork {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.call {
+  background-color: rgb(204, 178, 217);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logosize2{
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
 /*
  * ADD YOUR STYLES HERE
  */
